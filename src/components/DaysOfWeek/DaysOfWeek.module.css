@@ -1,0 +1,13 @@
+.week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  color: #999999;
+}
+
+.week > div {
+  padding: 10px;
+}
+.week > :nth-child(n + 6) {
+  background-color: #b4cbe5;
+  padding: 10px;
+}

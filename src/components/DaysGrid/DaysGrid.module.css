@@ -1,0 +1,26 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  color: #999999;
+}
+
+.grid > :nth-child(7n-1),
+.grid > :nth-child(7n) {
+  background-color: #b4cbe5;
+}
+
+.cellWrapp {
+  padding: 10px;
+  text-align: center;
+}
+
+.active {
+  background-color: #1f3a58 !important;
+  color: white;
+  z-index: 99;
+}
+
+.other {
+  color: #000000;
+}
