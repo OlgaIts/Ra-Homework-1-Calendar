@@ -15,12 +15,12 @@
   text-align: center;
 }
 
+.other {
+  color: #000000;
+}
+
 .active {
   background-color: #1f3a58 !important;
   color: white;
   z-index: 99;
-}
-
-.other {
-  color: #000000;
 }
